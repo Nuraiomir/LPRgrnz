@@ -1,0 +1,7 @@
+cd "C:\Users\ACER\OneDrive\Desktop\work\lpr_poc2\files (3)\LPR_OCRM_PoC"
+.\.venv\Scripts\python.exe .\app\ocrm_backend.py
+
+
+cd "C:\Users\ACER\OneDrive\Desktop\work\lpr_poc2\files (3)\LPR_OCRM_PoC"
+Invoke-RestMethod http://127.0.0.1:8000/health
+Invoke-RestMethod http://127.0.0.1:8000/api/vehicle/322BDM02

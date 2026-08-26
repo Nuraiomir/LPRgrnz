@@ -1,0 +1,19 @@
+# Backend (ocrm_backend.py)
+fastapi==0.141.1
+uvicorn==0.52.4
+pydantic==2.13.4
+
+# Frontend / pipeline (streamlit_live_ocrm.py)
+streamlit==1.62.0
+streamlit-webrtc==0.77.0
+streamlit-autorefresh==1.0.1
+opencv-python==5.0.0.93
+requests==2.34.2
+
+# Detection
+ultralytics==8.4.127
+
+# OCR
+paddlepaddle==3.3.1
+paddlex==3.7.2
+paddleocr==3.7.0
